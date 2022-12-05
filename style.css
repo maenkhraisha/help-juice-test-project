@@ -2,6 +2,53 @@ ul{
     list-style-type: none;
 }
 
+a{
+    text-decoration: none;
+}
+
+#createDom{
+    border: #f1f1f1;
+    margin-top: 1rem;
+}
+
+.result{
+    display: flex;
+    align-items: flex-start;
+}
+
+.result h1{
+    display: inline-block;
+}
+
+.result .delete-icon {
+    padding-left: 0.25rem;    
+    display: none;
+}
+
+.header-container:hover .delete-icon {
+    display: inline-block;
+}
+
 .dropdown-list{
     display: none;
+
+    padding: 0;
+    margin: 0.5rem;
+    width: fit-content;
+    width: -moz-fit-content;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 8px;
+
+}
+.dropdown-list li{
+    padding: 0.5rem 1rem;  
+    cursor: pointer;  
+}
+.dropdown-list li a{
+    color: black;
+}
+
+.dropdown-list li:hover{    
+    background-color: #f1f1f1;
 }
