@@ -11,10 +11,7 @@ a{
     margin-top: 1rem;
 }
 
-.result{
-    display: flex;
-    align-items: flex-start;
-}
+
 
 .result h1{
     display: inline-block;
